@@ -1,0 +1,15 @@
+.bookCard{
+    transition: all 0.3s linear;
+}
+
+.bookCard:hover{
+    transform: scale(1.05);
+    background-color: rgb(199, 199, 199);
+    color: white;
+}
+
+@media only screen and (max-width:364px){
+    .bookCard{
+        width: 200px !important;
+    }
+}

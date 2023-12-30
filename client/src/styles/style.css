@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    display: flex;
+    background-color: white !important;
+}
+.sideMenu{
+    width: 20%;
+    margin-right: 10px;
+}
+.sideBar{
+    background-color: grey;
+    width: 100%;
+    height: 100dvh;
+}
+.sideBar h2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(50, 179, 179);
+}
+.sideBar ul{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+}
+.sideBar ul li{
+    /* width: 100%; */
+    list-style: none;;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.sideBar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.body .main{
+    width: 80%;
+}
+
+@media only screen and (max-width: 870px) {
+    .sideBar ul li{
+        /* width: 100%; */
+        list-style: none;;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sideBar h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .sideBar ul li{
+        /* width: 100%; */
+        list-style: none;;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .sideBar h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    .sideBar ul li{
+        /* width: 100%; */
+        list-style: none;;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 6px;
+    }
+}
